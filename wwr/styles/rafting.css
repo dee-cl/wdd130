@@ -70,7 +70,7 @@ a {
     color: var(--main-link-color);
     text-decoration: none;
 }
-.container {
+.hero {
     position: relative;
     text-align: center;
     color: white;
