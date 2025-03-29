@@ -78,7 +78,7 @@ a {
 
 .hero h1 {
     position: absolute;
-    top: 3%;
+    top: 6rem;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
