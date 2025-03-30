@@ -70,6 +70,14 @@ header ul {
     align-items: center;
 }
 
+header li {
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+}
+
 header a {
     border: 2px rgb(120, 120, 120) solid;
     text-align: center;
@@ -89,10 +97,10 @@ header a {
     
 }
 
-.hero h1 {
+.hero article h1 {
     position: absolute;
     text-align: center;
-    top: 3rem;
+    top: -4rem;
     background-color: #404b61;
     left: 50%;
     transform: translate(-50%, -50%);
