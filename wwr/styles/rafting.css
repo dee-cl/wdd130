@@ -173,6 +173,26 @@ header a {
     text-align: center;
 }
 
+
+figure {
+    border: 1px #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+  }
+
+figcaption {
+    background-color:#6883ba;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+}
+  
 .adventure img {
     max-width: 80%;
     box-sizing: border-box;
