@@ -1,0 +1,325 @@
+:root {
+    --main-bg-color: rgb(21, 53, 148);
+    --secondary-bg-color: #ffffff;
+    --main-padding-color: #ffffff;
+    --main-text-color: #333;
+    --secondary-text-color: #f9f9f9;
+    --main-border-color: #6883ba;
+    --main-link-color: #f9f9f9;
+}
+
+.martel-regular {
+    font-family: "Martel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    font-family: "Martel", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9f1d1d;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.73)
+}
+
+header {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: var(--main-bg-color);
+}
+
+header img {
+    grid-column: 2/4;
+    max-width: fit-content;
+}
+
+header nav {
+    grid-column: 4/7;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+header ul {
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+header li {
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    border: 2px rgb(120, 120, 120) solid;
+    text-align: center;
+    padding: 2px
+}
+
+main {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px 300px 150px 150px 300px ;
+    width: 90%;
+    left: 5%;
+}
+form {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: rgba(169, 169, 169, 0.483);
+    padding: 20px;
+    border-radius: 10px;
+}
+.map {
+    display:flex;
+    justify-content: center;
+    flex-flow:column nowrap;
+    grid-column: 5/7;
+    grid-row: 2/4;
+    width: 80%;
+    left:50%;
+    transform: translate(-50%);
+    border:#000000 solid 2px;
+    height: 95%;
+    top: 4%
+}
+
+.poi-1{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    border:#000 solid 2px;
+    height: 90%;
+    top: 5%;
+    width: 100%;
+}
+
+.poi-1 img {
+    position: relative;
+    float:right;
+    width: 200px;
+    height: auto;
+}
+
+.poi-2{
+    grid-column: 1/5;
+    grid-row: 3/5;
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    border:#000 solid 2px;
+    height: 90%;
+    top: 5%
+}
+
+.poi-2 img {
+    position: relative;
+    float:right;
+    width: 200px;
+    height: auto;
+}
+
+.poi-3{
+    grid-column: 1/5;
+    grid-row: 5/6;
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    border:#000 solid 2px;
+    height: 90%;
+    top: 5%
+}
+
+.poi-3 img {
+    position: relative;
+    float:right;
+    width: 200px;
+    height: auto;
+}
+
+figure {
+    float: right;
+    position: relative;
+    border: thin #000000 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+  }
+
+  figcaption {
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+    font: "Faculty Glyphic", serif;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.contact-form {
+    display:flex;
+    justify-content: center;
+    flex-flow:column nowrap;
+    grid-column: 5/7;
+    grid-row: 4/6;
+    width: 80%;
+    left:50%;
+    transform: translate(-50%);
+    border:#000000 solid 2px;
+    height: 95%;
+    top: 1%
+}
+
+.contact-info h1{
+    text-align: center;
+}
+
+.contact-info {
+    position:absolute;
+    padding:0px;
+    margin:0px;
+    top: 55%;
+    width: 90%;
+    box-sizing: border-box;
+    font-family: "Martel", serif;
+    
+}
+
+.message {
+    width: 100%;
+}
+
+.message textarea {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.contact-fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-family: bold "faculty glypic";
+    border: 1px solid;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(21, 53, 148);
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(12, 29, 80);
+}
+
+legend{
+    display: none;
+    font-family: "Martel", serif;
+    font-size: 25px;
+    color: #000000;
+    border-color: #000;
+    border: 1px solid #000;
+}
+
+.contact-info p{
+    font-family: "Faculty Glyphic", serif;
+    font-size: 18px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.mapload iframe {
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    border:#000000 solid 2px;
+    top: -3%;
+    left:50%;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0px;
+}
+
+footer {
+    background-color:rgb(21, 53, 148);
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+footer p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sociallinks a {
+    padding: 5px 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: transparent;
+    font-size: 0;
+
+}
+.sociallinks img {
+    max-width: 50px;
+    max-height: 100px;
+}
