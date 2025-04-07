@@ -216,6 +216,10 @@ figure {
     text-align: center;
 }
 
+.contact-info h2{
+    text-align: center;
+}
+
 .contact-info {
     position:absolute;
     padding:0px;
