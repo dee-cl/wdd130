@@ -291,9 +291,9 @@ legend{
 .mapload iframe {
     position:absolute;
     width: 250px;
-    height: 250px;
+    height: 225px;
     border:#000000 solid 2px;
-    top: -3%;
+    top: 1%;
     left:50%;
     transform: translate(-50%);
     box-sizing: border-box;
