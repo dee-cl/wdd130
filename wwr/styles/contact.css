@@ -192,7 +192,7 @@ figure {
   figcaption {
     background-color: var(--main-bg-color);
     color: #ffffff;
-    font: "Faculty Glyphic", serif;
+    font-family: "Faculty Glyphic", serif;
     padding: 3px;
     text-align: center;
     border-radius: 10px;
@@ -256,7 +256,7 @@ button {
     align-items: center;
     text-align: center;
     padding: 5px;
-    font-family: bold "faculty glypic";
+    font-family:"Faculty Glypic", sans-serif;
     border: 1px solid;
     border-radius: 10px;
     width: 200px;
