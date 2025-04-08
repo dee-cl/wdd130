@@ -8,6 +8,10 @@
     --main-link-color: #f9f9f9;
 }
 
+textarea , input {
+    font-family: "Martel", serif;
+}
+
 .martel-regular {
     font-family: "Martel", serif;
     font-weight: 400;
