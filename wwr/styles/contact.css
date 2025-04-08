@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.73)
+    color: rgb(255, 255, 255);
 }
 
 header {
@@ -80,7 +80,7 @@ header li {
 }
 
 header a {
-    border: 2px rgb(120, 120, 120) solid;
+    border: 2px rgb(255, 255, 255) solid;
     text-align: center;
     padding: 2px
 }
