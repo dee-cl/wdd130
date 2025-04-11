@@ -88,7 +88,22 @@ header a {
     padding: 2px
 }
 
-headerstuff
+.title {
+    grid-column: 8/10;
+    background-color: var(--primary-bg-color);
+    padding: 20px;
+    text-align: center;
+}   
+
+.title h1 {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 2rem;
+    color: #9f1d1d;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-bg-color);
+    border-radius: 10px;
+}
 
 .hero {
     position: relative;
@@ -290,11 +305,16 @@ form {
     top: 5%
 }
 
-.poi-2 img {
+.poi-img {
     position: relative;
     float:right;
     width: 200px;
     height: auto;
+    top: -44px;
+    box-sizing: border-box;
+    border:#000 solid 2px;
+    overflow:hidden;
+
 }
 
 .poi-3{
